@@ -11,6 +11,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "homepage": "https://yahiaashraf-cs.github.io/just_for_you/",
   "dependencies": {
     "@gsap/react": "^2.1.2",
