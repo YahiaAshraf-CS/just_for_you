@@ -1,0 +1,9 @@
+@import '../index.css';
+
+footer {
+   
+   
+    animation: fadeup 2s ease-in-out;
+    animation-timeline: view();
+    animation-range: 0% cover 5%;
+}

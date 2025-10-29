@@ -1,0 +1,49 @@
+@import '../index.css';
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: fadeout 1s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: transparent;
+}
+@media (max-width: 768px) {
+    header nav{
+        gap: 10px;
+
+    }
+    header nav a{
+        font-size: 14px;
+    }
+    header nav img{
+        width: 80px;
+    }
+}
+@media  (max-width: 480px) {
+    header{
+        gap: 10px;
+    }
+    header nav{
+        gap: 5px;
+
+    }
+    header nav a{
+        font-size: 12px;
+    }
+    header nav img{
+        width: 70px;
+    }
+    
+}
