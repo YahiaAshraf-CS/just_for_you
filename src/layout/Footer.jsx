@@ -27,7 +27,7 @@ function Footer() {
                       </li>
                       <li>
                           {" "}
-                          <Linkicon to="/"> Home</Linkicon>{" "}
+                          <Linkicon to="/just_for_you/"> Home</Linkicon>{" "}
                       </li>
                       <li>
                           {" "}
