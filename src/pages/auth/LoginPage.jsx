@@ -53,13 +53,11 @@ function LoginPage() {
                   <h1 className=" text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center text-pink-600 m-auto ">LoginPage</h1>
                   <p className="text-2xl md:text-3xl lg:text-3xl xl:text-4xl text-center text-pink-600 pt-9 ">Welcome Home</p>
               </div>
-              <Formik initialValues={{email: "", password: ""}} validationSchema={loginFormSchema} onSubmit={(e) => handleSign(e)}>
+              <Formik initialValues={{ email: "", password: "" }} validationSchema={loginFormSchema} onSubmit={(e) => handleSign(e)}>
                   <Form className="flex flex-col border-2  border-pink-700  shadow-2xl shadow-pink-400 h-fill w-[80%] md:w-[70%] lg:w-[50%] xl:w-[50%] rounded-3xl px-6 py-6 items-center justify-center gap-10">
                       <Field
                           type="email"
                           name="email"
-                         
-                         
                           placeholder="Enter your email"
                           className=" outline-0 border-2 w-full px-4 py-2.5 rounded-2xl placeholder:text-pink-600 border-pink-600 focus:border-pink-800 focus:shadow-3xl focus:text-pink-700 focus:bg-pink-200"
                       />
@@ -68,7 +66,6 @@ function LoginPage() {
                       <Field
                           type="password"
                           name="password"
-                         
                           placeholder="Enter your password"
                           className=" outline-0 border-2 w-full px-4 py-2.5 rounded-2xl placeholder:text-pink-600 border-pink-600 focus:border-pink-800 focus:shadow-3xl focus:text-pink-700 focus:bg-pink-200"
                       />
@@ -94,11 +91,10 @@ function LoginPage() {
                           </button>
                           <button
                               type="button"
-                              onClick={() => navigate("/")}
+                              onClick={() => navigate("/just_for_you/")}
                               className="bg-[var(--color-creamy)] text-2xl w-[100%] px-4 py-2 h-[45px] text-[var(--color-prinky)] rounded-2xl  px-6 py-2 rounded transition duration-300 ease-in-out border-2 border-[var(--color-creamy)] hover:border-2 hover:border-amber-400 cursor-pointer hover:bg-transparent flex items-center justify-center hover:text-amber-400">
                               Back to Home
                           </button>
-                         
                       </div>
                   </Form>
               </Formik>
