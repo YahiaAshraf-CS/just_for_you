@@ -24,7 +24,7 @@ function App() {
                 <div className="flex flex-col items-center gap-2 justify-center h-fit ">
                     <TbError404 className="text-9xl text-center text-pink-600 m-auto mt-20" />
                     <h1 className="text-pink-500 font-bold text-5xl text-center">Page not found</h1>
-                    <ButtonPink to="/">Back to Home</ButtonPink>
+                    <ButtonPink to="/just_for_you/">Back to Home</ButtonPink>
                 </div>
             ),
         },
@@ -35,7 +35,7 @@ function App() {
                 <div className="flex flex-col items-center gap-2 justify-center h-fit ">
                     <TbError404 className="text-9xl text-center text-pink-500 m-auto mt-20" />
                     <h1 className="text-pink-600 font-bold text-5xl text-center">Page is not found</h1>
-                    <ButtonPink to="/">Back to Home</ButtonPink>
+                    <ButtonPink to="/just_for_you/">Back to Home</ButtonPink>
                 </div>
             ),
         },
@@ -46,7 +46,7 @@ function App() {
                 <div className="flex flex-col items-center gap-2 justify-center h-fit ">
                     <TbError404 className="text-9xl text-center text-pink-500 m-auto mt-20" />
                     <h1 className="text-pink-600 font-bold text-5xl text-center">Page not found</h1>
-                    <ButtonPink to="/">Back to Home</ButtonPink>
+                    <ButtonPink to="/just_for_you/">Back to Home</ButtonPink>
                 </div>
             ),
         },
@@ -57,7 +57,7 @@ function App() {
                 <div className="flex flex-col items-center gap-2 justify-center h-fit ">
                     <TbError404 className="text-9xl text-center text-pink-500 m-auto mt-20" />
                     <h1 className="text-pink-600 font-bold text-5xl text-center">Page not found</h1>
-                    <ButtonPink to="/">Back to Home</ButtonPink>
+                    <ButtonPink to="/just_for_you/">Back to Home</ButtonPink>
                 </div>
             ),
         },
@@ -71,7 +71,7 @@ function App() {
                 <div className="flex flex-col items-center gap-2 justify-center h-fit ">
                     <TbError404 className="text-9xl text-center text-pink-500 m-auto mt-20" />
                     <h1 className="text-pink-600 font-bold text-5xl text-center">Page not found</h1>
-                    <ButtonPink to="/">Back to Home</ButtonPink>
+                    <ButtonPink to="/just_for_you/">Back to Home</ButtonPink>
                 </div>
             ),
         },
