@@ -28,8 +28,8 @@ function NavbarUser() {
         "px-4 py-2 rounded-2xl rounded-2xl cursor-pointer text-white hover:text-pink-600 border-2 border-[var(--color-prinky)] hover:bg-transparent bg-[var(--color-prinky)] transition ease-in-out duration-300";
     return (
         <>
-            <nav className=" w-full h-fit  shadow-2xl shadow-pink-200 bg-pink-10 flex items-center justify-between gap-6 md:justify-evenly md:gap-10 lg:justify-around xl:justify-between  min-w-full px-4 py-3 flex-wrap">
-                <div className="logo  w-full h-fit px-2.5 flex justify-center items-center hover:text-white gap-3 py-1.5 bg-[var(--color-prinky)] rounded-3xl shadow-sm mr-6 hover:bg-pink-800 cursor-pointer transition-all duration-300 ease-in-out hover:scale-3d">
+            <nav className=" sm:w-full md:w-full lg:w-full w-full h-fit  shadow-2xl shadow-pink-300 bg-pink-10 flex items-center justify-between gap-6 md:justify-evenly md:gap-10 lg:justify-around xl:justify-between   px-4 py-3 flex-wrap">
+                <div className="logo  w-fit h-fit px-2.5 flex justify-center items-center hover:text-white gap-3 py-1.5 bg-[var(--color-prinky)] rounded-3xl shadow-sm mr-6 hover:bg-pink-800 cursor-pointer transition-all duration-300 ease-in-out hover:scale-3d">
                     <img src={logo} alt="" width={40} height={45} className=" rounded-tl-2xl rounded-br-2xl" />
                     <p className=" text-var[(--color-prinky)] text-2xl">hello {currentUser ? currentUser.firstName : ""}</p>
                 </div>
