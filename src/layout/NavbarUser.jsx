@@ -38,7 +38,7 @@ function NavbarUser() {
                     <NavLink to="/product" className={({ isActive }) => `${linkClass1} ${isActive ? "bg-pink-600 border-pink-500 text-white" : ""}`}>
                         Products
                     </NavLink>
-                    <NavLink to="/wishlist" className={({ isActive }) => `${linkClass1} ${isActive ? "bg-pink-600 border-pink-500 text-white" : ""}`}>
+                    <NavLink to="/WishList" className={({ isActive }) => `${linkClass1} ${isActive ? "bg-pink-600 border-pink-500 text-white" : ""}`}>
                         Wishlist
                     </NavLink>
                     <button onClick={handleLogOut} className={linkClass}>
